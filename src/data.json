@@ -1,0 +1,80 @@
+{
+    "contador": {
+        "perfil": {
+            "nombre": "CPC Daniela Patricia Morales García",
+            "titulo": "Especialista en Auditoría Internacional y Tributación Latinoamericana",
+            "sobre_mi": "Con más de 14 años de experiencia en Perú y Colombia, apoyo a empresas multinacionales y emprendedores a optimizar su carga fiscal y mantener la conformidad normativa en ambos países. Mi enfoque se basa en transparencia, ética profesional y dominio profundo de las regulaciones tributarias locales.",
+            "foto_perfil": "https://tusitio.com/assets/img/perfil-daniela.jpg",
+            "años_experiencia": 14
+        },
+        "experiencia": [
+            {
+                "id": 1,
+                "empresa": "Deloitte & Asociados - Oficina Lima",
+                "periodo": "2019 - Presente",
+                "puesto": "Auditora Sénior y Consultora Tributaria",
+                "logro": "Liderazgo de auditorías internacionales para empresas multinacionales operando en Perú, Chile y Colombia con recuperación de $2.5M en ajustes fiscales."
+            },
+            {
+                "id": 2,
+                "empresa": "Estudio Contable Morales & Asociados",
+                "periodo": "2018 - 2019",
+                "puesto": "Socia Fundadora",
+                "logro": "Establishment de oficina en Bogotá, Colombia con especialidad en asesoría para empresas exportadoras peruanas."
+            },
+            {
+                "id": 3,
+                "empresa": "Ernst & Young Colombia",
+                "periodo": "2012 - 2018",
+                "puesto": "Contadora Senior y Supervisora de Auditoría",
+                "logro": "Reducción del 22% en contingencias tributarias mediante auditorías preventivas y asesoría proactiva a 150+ clientes corporativos."
+            }
+        ],
+        "servicios": [
+            {
+                "id": "contabilidad-general",
+                "title": "Contabilidad Externa",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl4syyyq28M9Eq5EfFSHJgPlFOA_dKV08UQg&s",
+                "detail": "Gestión mensual de libros contables, estados financieros y cumplimiento normativo integral para empresas. Con aplicación de normas de Perú y Colombia."
+            },
+            {
+                "id": "declaracion-impuestos",
+                "title": "Declaración de Impuestos",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdzP0kAu3yxrH4MUZD1SSfS4KztFnDa9YaGQ&s",
+                "detail": "Liquidación de impuestos mensuales y anuales (IGV/UVT, Renta, Iva) evitando multas y recargos innecesarios en ambos países."
+            },
+            {
+                "id": "asesoria-laboral",
+                "title": "Asesoría Laboral y Planillas",
+                "img": "https://mandomedio.com/colombia/wp-content/uploads/2023/04/colegas-discutiendo-datos-comerciales-scaled-1.jpg",
+                "detail": "Cálculo de planillas, CTS, gratificaciones, aportes y gestión de contratos conforme a legislación peruana y colombiana."
+            },
+            {
+                "id": "constitucion-empresas",
+                "title": "Constitución de Empresas",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJKZ4TOD4RCOq7bKWc5PEqt-gi7xlQRl64PQ&s",
+                "detail": "Te ayudo a formalizar tu negocio desde cero en Perú o Colombia, eligiendo el régimen tributario más conveniente."
+            },
+            {
+                "id": "asesoria-internacional",
+                "title": "Asesoría Tributaria Internacional",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwRt6wsIP3v7X6ab7dAWQ-OWdewawNr2q7Mg&s",
+                "detail": "Asesoría especializada para empresas que operan en Perú y Colombia: precios de transferencia, tratados tributarios y optimización fiscal binacional."
+            }
+        ],
+        "contacto": {
+            "telefono_peru": "+51987654321",
+            "telefono_colombia": "+573001234567",
+            "email": "daniela.morales@contador.com",
+            "oficinas": {
+                "lima": "Av. Larco 320, Miraflores, Lima - Perú",
+                "bogota": "Cra. 7 # 100-50, Zip 110221, Bogotá - Colombia"
+            },
+            "redes_sociales": {
+                "linkedin": "https://linkedin.com/in/daniela-morales-contador",
+                "whatsapp_peru": "https://wa.me/51987654321",
+                "whatsapp_colombia": "https://wa.me/573001234567"
+            }
+        }
+    }
+}
