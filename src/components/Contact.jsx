@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-        <section id="contactame" className="py-20 px-6  bg-blue-600">
+        <section id="contactame" className="py-20 px-6 bg-radial-[at_25%_25%] from-blue-200 to-blue-900 to-65%">
             <div className="max-w-7xl mx-auto">
                 <div className="bg-glass rounded-3xl shadow-xl overflow-hidden flex flex-col md:flex-row">
                     <div className="flex-1 p-12 text-white">
