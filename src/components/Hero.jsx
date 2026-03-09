@@ -10,8 +10,8 @@ export default function Hero() {
                         Asesoría Contable & Tributaria
                     </span>
                     <h1 className="text-4xl md:text-6xl font-bold leading-tight mt-4 mb-6 text-slate-900">
-                        Tu tranquilidad financiera en{" "}
-                        <span className="text-blue-600">manos expertas.</span>
+                        Tranquilidad financiera en{" "}
+                        <span className="text-blue-600">MANOS EXPERTAS.</span>
                     </h1>
                     <p className="text-lg text-slate-600 mb-8">
                         Ayudamos a emprendedores y empresas a formalizarse, optimizar sus
@@ -35,7 +35,7 @@ export default function Hero() {
                 <div className="flex-1">
                     {/* Imagen de una contadora profesional trabajando o una oficina moderna */}
                     <img
-                        src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800"
+                        src="https://sercofi.pe/wp-content/uploads/2024/02/imagen-sercofi-blog-lima-peru-5-1024x576.webp"
                         alt="Contabilidad Profesional"
                         className="rounded-2xl shadow-2xl border-b-8 border-blue-600"
                     />

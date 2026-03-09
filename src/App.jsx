@@ -5,12 +5,14 @@ import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import WhatsappButton from './components/WhatsAppBtn';
+import Services from './components/Services';
 
 function App() {
   return (
     <div className="bg-slate-50 font-sans text-slate-900">
       <Navbar />
       <Hero />
+      <Services />
       <About />
       <Experience />
       <Contact />

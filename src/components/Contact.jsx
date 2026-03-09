@@ -8,11 +8,11 @@ export default function Contact() {
                         <p className="mb-8 opacity-90">Atención personalizada inmediata por cualquiera de estos canales.</p>
 
                         <div className="space-y-6">
-                            <a href="tel:+51900000000" className="flex items-center gap-4 hover:underline">
-                                <span>📞 +51 900 000 000</span>
+                            <a href="tel:+51933704881" className="flex items-center gap-4 hover:underline">
+                                <span>📞 +51 933 704 881</span>
                             </a>
-                            <a href="mailto:info@textil.com" className="flex items-center gap-4 hover:underline">
-                                <span>✉️ info@textil.com</span>
+                            <a href="mailto:info@contadora.com" className="flex items-center gap-4 hover:underline">
+                                <span>✉️ info@contadora.com</span>
                             </a>
                             <div className="flex items-center gap-4 italic opacity-80">
                                 <span>📍 Lima, Perú</span>
