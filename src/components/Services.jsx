@@ -23,9 +23,9 @@ export default function Services() {
     ];
 
     return (
-        <section id="servicios" className="py-20 bg-slate-50">
+        <section id="servicios" className="py-20 bg-blue-600">
             <div className="max-w-7xl mx-auto px-6">
-                <h2 className="text-3xl font-bold text-center mb-16 text-slate-900">Nuestros Servicios</h2>
+                <h2 className="text-3xl font-bold text-center mb-16 text-white">Nuestros Servicios</h2>
                 <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {services.map((s, i) => (
                         <div key={i} className="bg-white p-8 rounded-xl border border-slate-100 shadow-sm hover:shadow-md transition">
