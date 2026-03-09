@@ -11,8 +11,8 @@ export default function Contact() {
                             <a href="tel:+51933704881" className="flex items-center gap-4  no-underline text-inherit hover:text-green-400">
                                 <span>📞 +51 933 704 881</span>
                             </a>
-                            <a href="mailto:info@contadora.com" className="flex items-center gap-4  no-underline text-inherit hover:text-green-400">
-                                <span>✉️ info@contadora.com</span>
+                            <a href="mailto:lourdesramosdiaz26@gmail.com" className="flex items-center gap-4  no-underline text-inherit hover:text-green-400">
+                                <span>✉️ lourdesramosdiaz26@gmail.com</span>
                             </a>
                             <div className="flex items-center gap-4 italic opacity-80">
                                 <span>📍 Lima, Perú</span>
@@ -23,7 +23,7 @@ export default function Contact() {
                     <div className="flex-[1.5] p-12">
                         {/* Endpoint de FormSubmit configurado con tu correo */}
                         <form
-                            action="https://formsubmit.co/kleibertmedina@gmail.com"
+                            action="https://formsubmit.co/lourdesramosdiaz26@gmail.com"
                             method="POST"
                             className="grid grid-cols-1 gap-6"
                         >

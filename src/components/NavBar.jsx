@@ -94,7 +94,7 @@ const NavBar = () => {
                                 {pages.map((page) => (
                                     <MenuItem key={page} onClick={handleCloseNavMenu}>
                                         <Typography
-                                            textAlign="center"
+                                            textAlign="start"
                                             component="a"
                                             href={`#${page.toLowerCase().replace(/\s+/g, '-')}`} // Reemplaza espacios por guiones si los hay
                                             sx={{ textDecoration: 'none', color: 'inherit', width: '100%' }}
@@ -121,7 +121,7 @@ const NavBar = () => {
                                 textDecoration: 'none',
                             }}
                         >
-                            Lourdes
+                            Lourdes Ramos
                         </Typography>
                         <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                             {pages.map((page) => (
