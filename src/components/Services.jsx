@@ -1,6 +1,17 @@
 export default function Services() {
     const servicesData = [
         {
+            title: 'Especialista en Gestión Integral',
+            // La descripción ahora integra Costos, Impuestos y NIIF de forma fluida
+            description: 'Control estratégico de su rentabilidad mediante la gestión de costos, cumplimiento tributario riguroso y estados financieros bajo estándares internacionales NIIF.',
+            icon: '⚖️', // La balanza representa el equilibrio entre lo financiero y lo legal (más profesional que una gráfica)
+            features: [
+                'Costos y Presupuestos Industriales',
+                'Estrategia Tributaria Avanzada',
+                'Cumplimiento de Normativas NIIF'
+            ]
+        },
+        {
             title: 'Gestión Tributaria & PLE/SIRE',
             description: 'Regularización y presentación mensual de impuestos (PDT 621, PLAME) asegurando el cumplimiento con los nuevos sistemas electrónicos de SUNAT.',
             icon: '📊',
@@ -47,25 +58,33 @@ export default function Services() {
                             </span>
                         </h3>
                     </div>
-                    <p className="text-slate-500 text-lg md:max-w-xs border-l-2 border-blue-100 pl-6">
-                        Estrategias financieras diseñadas para la era digital y mercados globales.
-                    </p>
+                    <div className="flex flex-wrap gap-3">
+                        <span className="bg-blue-50 text-blue-700 px-4 py-2 rounded-xl text-xs font-bold border border-blue-100 uppercase tracking-wider">
+                            Asesoría Personalizada
+                        </span>
+                        <span className="bg-blue-50 text-blue-700 px-4 py-2 rounded-xl text-xs font-bold border border-blue-100 uppercase tracking-wider">
+                            Gestión de Planillas
+                        </span>
+                        <span className="bg-blue-50 text-blue-700 px-4 py-2 rounded-xl text-xs font-bold border border-blue-100 uppercase tracking-wider">
+                            Estrategia Tributaria
+                        </span>
+                    </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {servicesData.map((service, i) => (
-                        <div 
-                            key={i} 
+                        <div
+                            key={i}
                             className="group p-10 rounded-3xl border border-slate-100 bg-slate-50 hover:bg-white hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-500"
                         >
                             <div className="text-5xl mb-8 group-hover:scale-110 transition-transform duration-500 inline-block">
                                 {service.icon}
                             </div>
-                            
+
                             <h4 className="text-2xl font-bold text-slate-900 mb-4 group-hover:text-blue-600 transition-colors">
                                 {service.title}
                             </h4>
-                            
+
                             <p className="text-slate-600 leading-relaxed mb-8">
                                 {service.description}
                             </p>
@@ -91,8 +110,8 @@ export default function Services() {
                         <p className="text-blue-100 mb-8 max-w-xl mx-auto">
                             No esperes a recibir una notificación de SUNAT o la DIAN. Evaluemos hoy mismo tu historial contable.
                         </p>
-                        <a 
-                            href="#contacto" 
+                        <a
+                            href="#contacto"
                             className="inline-block bg-white text-blue-600 px-10 py-4 rounded-full font-bold hover:bg-slate-100 transition-colors shadow-lg"
                         >
                             Solicitar Asesoría Gratuita
