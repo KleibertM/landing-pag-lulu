@@ -116,10 +116,10 @@ export default function Services() {
                         <h2 className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-3">
                             Soluciones Profesionales
                         </h2>
-                        <h3 className="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight">
-                            Servicios Contables con <br />
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">
-                                Enfoque Tecnológico
+                        <h3 className="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight ">
+                            Servicios 
+                            <span className="pl-3 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">
+                                Contables
                             </span>
                         </h3>
                     </div>
