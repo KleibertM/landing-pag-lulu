@@ -1,5 +1,3 @@
-import logo from '../assets/logo.jpeg'
-
 export default function About() {
   return (
    <section id="sobre-mi" className="py-20 px-6">
@@ -7,7 +5,7 @@ export default function About() {
     {/* Foto Profesional */}
     <div className="w-64 h-64 md:w-80 md:h-80 shrink-0">
       <img 
-        src={logo} 
+        src='https://i.ibb.co/2Y5gfLfZ/L.jpg' 
         alt="Lourdes Ramos Díaz - Contadora Pública" 
         className="w-full h-full object-cover rounded-full border-8 border-white shadow-2xl" 
       />

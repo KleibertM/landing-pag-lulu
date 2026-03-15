@@ -35,13 +35,13 @@ export default function Hero() {
                     <div className="flex flex-col sm:flex-row gap-5 justify-center lg:justify-start">
                         <a
                             href="https://wa.me/51933704881?text=Hola%20Lourdes%2C%20estoy%20interesado%20en%20solicitar%20una%20consultor%C3%ADa.%20Podr%C3%ADas%20ayudarme%3F"
-                            className="bg-blue-600 px-10 py-4 rounded-2xl font-bold hover:bg-blue-700 shadow-xl shadow-blue-200 transition-all hover:-translate-y-1 active:scale-95 text-center text-white" 
+                            className="inline-block bg-white text-blue-600 px-10 py-4 rounded-full font-bold hover:bg-slate-100 transition-colors shadow-lg" 
                         >
                             Solicitar Consultoría
                         </a>
                         <a
                             href="#servicios"
-                            className="bg-white/80 backdrop-blur-md border border-slate-200 px-10 py-4 rounded-2xl font-bold hover:bg-white transition-all text-slate-700 shadow-sm text-center"
+                            className="inline-block bg-white text-blue-600 px-10 py-4 rounded-full font-bold hover:bg-slate-100 transition-colors shadow-lg"
                         >
                             Ver Especialidades
                         </a>

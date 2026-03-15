@@ -1,3 +1,5 @@
+import iconWa from '../assets/icon-whatsapp.webp';
+
 export default function Footer() {
     const currentYear = new Date().getFullYear();
 
@@ -67,7 +69,7 @@ export default function Footer() {
                             </a>
                             {/* WhatsApp Directo */}
                             <a href="https://wa.me/51933704881" className="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center hover:bg-green-600 transition-all group">
-                                <svg className="w-6 h-6 stroke-current fill-none" strokeWidth="2" viewBox="0 0 24 24"><path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                                <img src={iconWa} alt="WhatsApp" className="object-cover w-full h-full" />
                             </a>
                         </div>
                     </div>
@@ -79,7 +81,7 @@ export default function Footer() {
                     <div className="flex gap-8">
                         <a href="#" className="hover:text-white transition">Términos</a>
                         <a href="#" className="hover:text-white transition">Privacidad</a>
-                        <p className="text-blue-400">Diseñado para Crecimiento Global</p>
+                        <a href="https://portafolio-gray-nine.vercel.app/" className="hover:text-white transition" target='_blank'>Diseñado por Kleibert Medina</a>
                     </div>
                 </div>
             </div>
