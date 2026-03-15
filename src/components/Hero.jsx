@@ -35,7 +35,7 @@ export default function Hero() {
                     <div className="flex flex-col sm:flex-row gap-5 justify-center lg:justify-start">
                         <a
                             href="https://wa.me/51933704881?text=Hola%20Lourdes%2C%20estoy%20interesado%20en%20solicitar%20una%20consultor%C3%ADa.%20Podr%C3%ADas%20ayudarme%3F"
-                            className="bg-blue-600 text-white px-10 py-4 rounded-2xl font-bold hover:bg-blue-700 shadow-xl shadow-blue-200 transition-all hover:-translate-y-1 active:scale-95 text-center" target="_blank"
+                            className="bg-blue-600 px-10 py-4 rounded-2xl font-bold hover:bg-blue-700 shadow-xl shadow-blue-200 transition-all hover:-translate-y-1 active:scale-95 text-center text-white" 
                         >
                             Solicitar Consultoría
                         </a>

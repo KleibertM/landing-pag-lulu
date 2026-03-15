@@ -12,6 +12,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import logo from '../assets/logo.jpeg'
 
 // const navItems = ['Inicio', 'Sobre Mi', 'Servicios', 'Experiencia', 'Contactame'];
 const pages = ['Inicio', 'Sobre Mi', 'Servicios', 'Experiencia', 'Contactame'];
@@ -143,7 +144,7 @@ const NavBar = () => {
                                 >
                                     <Avatar
                                         alt="Lourdes"
-                                        src="https://sercofi.pe/wp-content/uploads/2024/03/imagen-sercofi-blog-lima-peru-5.webp"
+                                        src={logo}
                                         sx={{ border: '2px solid rgba(255,255,255,0.2)' }}
                                     />
                                 </IconButton>
