@@ -1,7 +1,7 @@
 export default function WhatsappButton() {
     return (
         <a
-            href="https://wa.me/51900000000"
+            href="https://wa.me/51933704881?text=Hola%20Lourdes%2C%20estoy%20interesado%20en%20solicitar%20una%20consultor%C3%ADa.%20Podr%C3%ADas%20ayudarme%3F"
             target="_blank"
             rel="noreferrer"
             className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform z-50 flex items-center justify-center"

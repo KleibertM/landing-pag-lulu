@@ -21,7 +21,7 @@ export default function Hero() {
                     </div>
 
                     <h1 className="text-5xl md:text-7xl font-extrabold leading-[1.1] mb-8 text-slate-900 tracking-tight">
-                        Contabilidad Estratégica <br />
+                        Servicio Contable <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">
                             Sin Fronteras.
                         </span>
@@ -34,8 +34,8 @@ export default function Hero() {
 
                     <div className="flex flex-col sm:flex-row gap-5 justify-center lg:justify-start">
                         <a
-                            href="#contacto"
-                            className="bg-blue-600 text-white px-10 py-4 rounded-2xl font-bold hover:bg-blue-700 shadow-xl shadow-blue-200 transition-all hover:-translate-y-1 active:scale-95 text-center"
+                            href="https://wa.me/51933704881?text=Hola%20Lourdes%2C%20estoy%20interesado%20en%20solicitar%20una%20consultor%C3%ADa.%20Podr%C3%ADas%20ayudarme%3F"
+                            className="bg-blue-600 text-white px-10 py-4 rounded-2xl font-bold hover:bg-blue-700 shadow-xl shadow-blue-200 transition-all hover:-translate-y-1 active:scale-95 text-center" target="_blank"
                         >
                             Solicitar Consultoría
                         </a>

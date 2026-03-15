@@ -43,8 +43,73 @@ export default function Services() {
         }
     ];
 
-    return (
-        <section id="servicios" className="py-24 px-6 bg-white">
+    const technicalDetails = [
+        {
+            category: "Cumplimiento Tributario & SUNAT",
+            items: [
+                "Contabilidad para Personas Naturales y Jurídicas",
+                "Declaraciones Juradas Mensuales (PDT IGV - Renta)",
+                "Gestión de PLAME y Planilla Electrónica",
+                "Declaración Jurada Anual del Impuesto a la Renta",
+                "Presentación de DAOT, Predios y otras obligaciones",
+                "Devolución y Recuperación de Impuestos"
+            ]
+        },
+        {
+            category: "Gestión Financiera & Libros",
+            items: [
+                "Elaboración de Estados Financieros bajo NIIF",
+                "Conciliaciones Bancarias masivas",
+                "Libros Electrónicos (Registro de Ventas y Compras)",
+                "Optimización de flujo de caja",
+                "Análisis de cuentas contables",
+                "Control de activos y pasivos"
+            ]
+        }
+    ];
+
+    return (<>
+
+        <section id="servicios"  className="py-20 bg-white">
+            <div className="max-w-7xl mx-auto px-6">
+                <div className="text-center mb-16">
+                    <h2 className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-3">Cobertura Total</h2>
+                    <h3 className="text-4xl font-extrabold text-slate-900">Alcance de Gestión Técnica</h3>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    {technicalDetails.map((group, idx) => (
+                        <div key={idx} className="bg-slate-50 p-8 rounded-3xl border border-slate-100 hover:shadow-lg transition-shadow">
+                            <h4 className="text-xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                                <span className="w-8 h-8 bg-blue-600 text-white rounded-lg flex items-center justify-center text-sm">
+                                    {idx === 0 ? "⚖️" : "📈"}
+                                </span>
+                                {group.category}
+                            </h4>
+                            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                {group.items.map((item, i) => (
+                                    <li key={i} className="flex items-start gap-3 text-slate-600 text-sm leading-snug group">
+                                        <svg className="w-5 h-5 text-blue-500 shrink-0 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                        {item}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    ))}
+                </div>
+
+                {/* Banner de confianza adicional */}
+                <div className="mt-12 p-6 bg-blue-50 border border-blue-100 rounded-2xl flex flex-col md:flex-row items-center justify-center gap-6 text-center md:text-left">
+                    <p className="text-blue-800 font-medium">
+                        <span className="font-bold">¿Tienes trámites pendientes de años anteriores?</span> Especialista en regularización de situaciones críticas ante SUNAT.
+                    </p>
+                    <a href="https://wa.me/51933704881?text=Hola%20Lourdes%2C%20estoy%20interesado%20en%20regularizar%20mi%20situaci%C3%B3n%20tributaria.%20Podr%C3%ADas%20ayudarme%3F" target="_blank" className="inline-block bg-white text-blue-600 px-10 py-4 rounded-full font-bold hover:bg-slate-100 transition-colors shadow-lg">Consultar caso →</a>
+                </div>
+            </div>
+        </section>
+        <section className="py-24 px-6 bg-white">
             <div className="max-w-7xl mx-auto">
                 <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
                     <div className="max-w-2xl">
@@ -111,8 +176,8 @@ export default function Services() {
                             No esperes a recibir una notificación de SUNAT o la DIAN. Evaluemos hoy mismo tu historial contable.
                         </p>
                         <a
-                            href="#contacto"
-                            className="inline-block bg-white text-blue-600 px-10 py-4 rounded-full font-bold hover:bg-slate-100 transition-colors shadow-lg"
+                            href="https://wa.me/51933704881?text=Hola%20Lourdes%2C%20estoy%20interesado%20en%20regularizar%20mi%20situaci%C3%B3n%20tributaria.%20Podr%C3%ADas%20ayudarme%3F"
+                            className="inline-block bg-white text-blue-600 px-10 py-4 rounded-full font-bold hover:bg-slate-100 transition-colors shadow-lg" target="_blank"
                         >
                             Solicitar Asesoría Gratuita
                         </a>
@@ -122,5 +187,6 @@ export default function Services() {
                 </div>
             </div>
         </section>
+    </>
     );
 }
