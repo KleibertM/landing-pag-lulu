@@ -5,6 +5,26 @@ export default function Experience() {
         description: "Contadora Pública Colegiada con especialización en sistemas ERP y normativa internacional.",
         items: [
             { 
+            value: 'Construcción', 
+            label: 'Costos y Valorizaciones',
+            detail: 'Gestión contable especializada en proyectos de construcción, control de costos por obra y cumplimiento de regímenes laborales específicos.' 
+        },
+        { 
+            value: 'Comercial', 
+            label: 'Gestión de Inventarios',
+            detail: 'Optimización de procesos para empresas de comercialización, control de Kardex, determinación de costos de ventas y flujo de caja.' 
+        },
+        { 
+            value: 'Servicios', 
+            label: 'Outsourcing Contable',
+            detail: 'Asesoría integral para empresas de servicios, liquidación de impuestos y gestión de rentabilidad mediante análisis financiero.' 
+        },
+        { 
+            value: 'Industrial', 
+            label: 'Contabilidad de Costos',
+            detail: 'Determinación de costos de producción, presupuestos y control operativo bajo estándares NIIF para el sector industrial.' 
+        },
+            { 
                 value: 'CPCC 6670', 
                 label: 'Colegiatura Habilitada',
                 detail: 'Colegio de Contadores Públicos del Callao' 
